@@ -1,14 +1,9 @@
 package main
 
 import (
-	"fmt"
-	lesson "learn-go/pkg/lesson"
-
-	quote "rsc.io/quote"
+	methods "learn-go/pkg/methods"
 )
 
 func main() {
-	fmt.Println("Starting Learn Go!")
-	lesson.TestInfo()
-	fmt.Println(quote.Opt())
+	methods.OutPut()
 }
