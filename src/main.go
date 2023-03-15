@@ -1,9 +1,9 @@
 package main
 
 import (
-	methods "learn-go/pkg/methods"
+	concurrency "learn-go/pkg/concurrency"
 )
 
 func main() {
-	methods.OutPut()
+	concurrency.OutPut6()
 }
